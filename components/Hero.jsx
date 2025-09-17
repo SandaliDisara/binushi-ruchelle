@@ -25,7 +25,7 @@ export default function Hero() {
     <span className="block">RUCHELLE</span>
   </h1>
 
-  <p className="font-script italic text-white/90 text-xl md:text-3xl text-center px-6 drop-shadow">
+  <p className="font-script italic text-white/90 text-2xl md:text-4xl text-center px-6 drop-shadow">
   Forever begins with this magical moment
 </p>
 </div>
