@@ -10,15 +10,13 @@ export default function Invitation() {
           className="w-24 md:w-28 h-auto mb-8 opacity-90"
         />
 
-        {/* Copy (script font) */}
-        <p className="font-script text-base md:text-lg leading-relaxed [text-wrap:balance]">
+        <p className="font-third text-base md:text-lg leading-relaxed [text-wrap:balance]">
           Surrounded by those we cherish<br />
           most, we&apos;ll begin our forever.<br />
           We can&apos;t wait to celebrate<br />
           this magical chapter with you.
         </p>
 
-        {/* Date (display font) */}
         <div className="mt-10 md:mt-12 font-display text-3xl md:text-5xl tracking-[0.2em]">
           <span className="sr-only">Date:</span>
           <span>04</span>

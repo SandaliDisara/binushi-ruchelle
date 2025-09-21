@@ -9,6 +9,7 @@
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-display);
   --font-script: var(--font-script);
+  --font-third: var(--font-third);
 }
 
 /* Tailwind theme extension */
@@ -19,6 +20,7 @@
   --font-mono: var(--font-geist-mono);
   --font-display: var(--font-display);
   --font-script: var(--font-script);
+  --font-third: var(--font-third);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,4 +43,8 @@ body {
 
 .font-script {
   font-family: var(--font-script);
+}
+
+.font-third {
+  font-family: var(--font-third);
 }
