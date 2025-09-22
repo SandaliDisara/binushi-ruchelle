@@ -9,16 +9,17 @@ export default function Poem() {
           </span>
         </div>
       </div>
-      <div className="mt-20 px-26 md:px-0 font-display text-sm md:text-[6rem] [text-wrap:balance] leading-5 select-none text-[#53513C] text-center mx-auto max-w-2xl">
-        Love divine, all loves excelling,<br />
-        Joy of heaven to earth come down,<br />
-        Fix in us Thy humble dwelling,<br />
-        All Thy faithful mercies crown.<br />
-        Jesus, Thou art all compassion,<br />
-        Pure, unbounded love Thou art;<br />
-        Visit us with Thy salvation,<br />
-        Enter every trembling heart.
-      </div>
+      <div className="mt-20 px-6 md:px-0 font-display text-base md:text-lg leading-7 select-none text-[#53513C] text-center mx-auto max-w-2xl">
+  Love divine, all loves excelling,<br />
+  Joy of heaven to earth come down,<br />
+  Fix in us Thy humble dwelling,<br />
+  All Thy faithful mercies crown.<br />
+  Jesus, Thou art all compassion,<br />
+  Pure, unbounded love Thou art;<br />
+  Visit us with Thy salvation,<br />
+  Enter every trembling heart.
+</div>
+
     </section>
   );
 }
