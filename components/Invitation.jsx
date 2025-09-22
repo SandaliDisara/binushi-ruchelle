@@ -1,7 +1,7 @@
 // components/Invitation.jsx
 export default function Invitation() {
   return (
-    <section className="bg-[#4b4b3a] text-[#F2F1EC] py-16 md:py-24">
+    <section className="bg-[#4b4b3a] text-[#F2F1EC] py-32 md:py-40">
       <div className="mx-auto max-w-screen-sm px-6 flex flex-col items-center text-center">
         {/* SVG */}
         <img
