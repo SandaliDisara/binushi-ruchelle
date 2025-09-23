@@ -3,7 +3,7 @@ export default function Poem() {
     <section className="bg-[#f8f6f2] text-[#53513C] py-32 md:py-40">
       <div className="mx-auto max-w-screen-sm px-6 text-center">
         
-        {/* Title Block (same structure as Wedding Schedule) */}
+   
         <div className="relative text-center mb-16">
           {/* Big faint background title */}
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center">

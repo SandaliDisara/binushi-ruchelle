@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function TimelineTitle() {
   return (
     <section className="relative bg-[#f8f6f2] dark:bg-[#f8f6f2] text-[#2c2c2c]">
-      <div className="max-w-5xl mx-auto px-6 py-16 md:py-20 relative">
+      <div className="max-w-5xl mx-auto px-6 py-32 md:py-40 relative">
         {/* Title Block */}
         <div className="relative text-center mb-16">
           {/* Big faint background title */}

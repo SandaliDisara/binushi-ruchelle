@@ -14,23 +14,31 @@ export default function Hero() {
         className="object-cover grayscale"
       />
 
-      {/* Readability gradient (heavier at bottom) */}
+      {/* Readability gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-black/60" />
 
       {/* Text overlay */}
       <div className="absolute inset-x-0 bottom-8 md:bottom-12 flex flex-col items-center">
-  <h1 className="font-display text-white text-7xl md:text-9xl leading-tight tracking-wide text-center drop-shadow">
-    BINUSHI
-    <span className="block text-2xl md:text-4xl font-normal">&amp;</span>
-    <span className="block">RUCHELLE</span>
-  </h1>
+        {/* Title */}
+        <h1 className="font-display text-white text-6xl sm:text-7xl md:text-8xl lg:text-9xl leading-tight tracking-wide text-center drop-shadow">
+          {/* Mobile (stacked) */}
+          <span className="block lg:hidden">
+            BINUSHI
+            <span className="block text-2xl font-normal -my-1">&amp;</span>
+            RUCHELLE
+          </span>
 
-  <p className="font-script italic text-white/90 text-2xl md:text-4xl text-center px-6 drop-shadow">
-  Forever begins with this magical moment
-</p>
-</div>
+          {/* Large screens (inline, same size) */}
+          <span className="hidden lg:inline">
+            BINUSHI &amp; RUCHELLE
+          </span>
+        </h1>
 
-
+        {/* Subtitle */}
+        <p className="font-script italic text-white/90 text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2 text-center px-6 drop-shadow">
+          Forever begins with this magical moment
+        </p>
+      </div>
     </section>
   );
 }
