@@ -29,9 +29,7 @@ export default function Hero() {
           </span>
 
           {/* Large screens (inline, same size) */}
-          <span className="hidden lg:inline">
-            BINUSHI &amp; RUCHELLE
-          </span>
+          <span className="hidden lg:inline">BINUSHI &amp; RUCHELLE</span>
         </h1>
 
         {/* Subtitle */}
