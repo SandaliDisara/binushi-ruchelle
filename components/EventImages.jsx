@@ -9,7 +9,7 @@ const items = [
 export default function EventImages() {
   return (
     <section className="bg-[#f8f6f2]">
-      <div className="flex flex-col">
+      <div className="flex flex-col md:flex-row">
         {items.map(({ src, title, alt }) => (
           <figure
             key={title}
@@ -22,7 +22,7 @@ export default function EventImages() {
               fill
               priority
               className="object-cover"
-              sizes="100vw"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
 
             {/* slight gradient for readability */}

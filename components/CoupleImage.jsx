@@ -19,7 +19,9 @@ export default function CoupleImage() {
       {/* Text overlay */}
       <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10">
         <p className="font-third text-white text-base md:text-xl lg:text-2xl drop-shadow-md leading-relaxed">
-          Two hearts, one<br />beautiful journey
+          Two hearts, one
+          <br />
+          beautiful journey
         </p>
       </div>
     </section>

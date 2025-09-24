@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-black/60" />
 
       {/* Text overlay */}
-      <div className="absolute inset-x-0 bottom-8 md:bottom-12 flex flex-col items-center">
+      <div className="absolute inset-x-0 bottom-16 md:bottom-20 flex flex-col items-center">
         {/* Title */}
         <h1 className="font-display text-white text-6xl sm:text-7xl md:text-8xl lg:text-9xl leading-tight tracking-wide text-center drop-shadow">
           {/* Mobile (stacked) */}

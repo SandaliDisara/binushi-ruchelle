@@ -9,13 +9,13 @@ export default function TimelineTitle() {
         <div className="relative text-center mb-16">
           {/* Big faint background title */}
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-            <h2 className="font-script text-[3rem] md:text-[6rem] leading-none text-black/10 select-none">
+            <h2 className="font-script text-[3rem] md:text-[6rem] leading-none text-black/10 select-none whitespace-nowrap">
               Wedding Schedule
             </h2>
           </div>
 
           {/* Foreground title */}
-          <h3 className="relative font-display tracking-wide text-[1.25rem] md:text-[1.875rem] inline-block">
+          <h3 className="relative font-display tracking-wide text-[1.25rem] md:text-[1.875rem] inline-block translate-y-1 md:translate-y-3">
             WEDDING DAY TIMELINE
           </h3>
         </div>
@@ -23,15 +23,19 @@ export default function TimelineTitle() {
         {/* --- Block 1: Image Left / Schedule Right --- */}
         <div className="grid grid-cols-[1fr_1.2fr] gap-6 md:gap-12 items-stretch mb-16">
           {/* LEFT: Photo */}
-          <div className="relative h-full overflow-hidden"> {/* added overflow-hidden */}
-          <Image
-            src="/timelineLeft.webp"
-            alt="Couple photo"
-            fill
-            priority
-            className="object-cover object-[100%_center]" />
-          <p className="absolute top-4 left-4 font-third text-white/95 text-sm md:text-base drop-shadow">
-          A gentle kind<br />of forever</p>
+          <div className="relative h-full overflow-hidden -ml-6 md:ml-0">
+            <Image
+              src="/timelineLeft.webp"
+              alt="Couple photo"
+              fill
+              priority
+              className="object-cover object-[100%_center]"
+            />
+            <p className="absolute top-4 left-4 font-third text-white/95 text-sm md:text-base drop-shadow">
+              A gentle kind
+              <br />
+              of forever
+            </p>
           </div>
 
           {/* RIGHT: Schedule */}
@@ -64,20 +68,20 @@ export default function TimelineTitle() {
           </div>
 
           {/* RIGHT: Photo */}
-<div className="relative h-full overflow-hidden">
-  <Image
-    src="/timelineRight.webp"
-    alt="Reception photo"
-    fill
-    priority
-    // shift focal point more to the right
-    className="object-cover object-[10%_center] md:object-[75%_center]"
-  />
-  <p className="absolute top-4 left-4 font-third text-white/95 text-sm md:text-base drop-shadow">
-    Where love lives,<br />joy follows
-  </p>
-</div>
-
+          <div className="relative h-full overflow-hidden -mr-6 md:mr-0">
+            <Image
+              src="/timelineRight.webp"
+              alt="Reception photo"
+              fill
+              priority
+              className="object-cover object-[10%_center] md:object-[75%_center]"
+            />
+            <p className="absolute top-4 left-4 font-third text-white/95 text-sm md:text-base drop-shadow">
+              Where love lives,
+              <br />
+              joy follows
+            </p>
+          </div>
         </div>
       </div>
     </section>

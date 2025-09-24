@@ -8,18 +8,17 @@ import Footer from "@/components/Footer";
 import EventImages from "@/components/EventImages";
 import CoupleImage from "@/components/CoupleImage";
 
-
 export default function Home() {
-    return (
-        <main>
-            <Hero/>
-            <Invitation/>
-            <Timeline/>
-            <Instructions/>
-            <CoupleImage/>
-            <Poem />
-            <EventImages/>
-            <Footer />
-        </main>
-    );
+  return (
+    <main>
+      <Hero />
+      <Invitation />
+      <Timeline />
+      <Instructions />
+      <CoupleImage />
+      <Poem />
+      <EventImages />
+      <Footer />
+    </main>
+  );
 }

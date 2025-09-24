@@ -7,18 +7,22 @@ export default function Invitation() {
         <img
           src="/hands.svg"
           alt=""
-          className="w-24 md:w-28 h-auto mb-8 opacity-90"
+          className="w-26 md:w-30 h-auto mb-8 opacity-90"
         />
 
         <p className="font-third text-base md:text-lg leading-relaxed [text-wrap:balance] max-w-xl">
           <span className="block md:hidden">
-            Surrounded by those we cherish<br />
-            most, we&apos;ll begin our forever.<br />
-            We can&apos;t wait to celebrate<br />
+            Surrounded by those we cherish
+            <br />
+            most, we&apos;ll begin our forever.
+            <br />
+            We can&apos;t wait to celebrate
+            <br />
             this magical chapter with you.
           </span>
           <span className="hidden md:block">
-            Surrounded by those we cherish most, we&apos;ll begin our forever.<br />
+            Surrounded by those we cherish most, we&apos;ll begin our forever.
+            <br />
             We can&apos;t wait to celebrate this magical chapter with you.
           </span>
         </p>
