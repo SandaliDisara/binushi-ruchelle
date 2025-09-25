@@ -1,19 +1,31 @@
 // components/EventImages.jsx
 import Image from "next/image";
+import Link from "next/link";
 
 const items = [
-  { src: "/preshootCover.webp", title: "Pre Shoot", alt: "Pre-shoot photo" },
-  { src: "/engageCover.webp", title: "Engagement", alt: "Engagement photo" },
+  {
+    src: "/preshootCover.webp",
+    title: "Pre Shoot",
+    alt: "Pre-shoot photo",
+    href: "/preshoot",
+  },
+  {
+    src: "/engageCover.webp",
+    title: "Engagement",
+    alt: "Engagement photo",
+    href: "/engagement",
+  },
 ];
 
 export default function EventImages() {
   return (
     <section className="bg-[#f8f6f2]">
       <div className="flex flex-col md:flex-row">
-        {items.map(({ src, title, alt }) => (
-          <figure
+        {items.map(({ src, title, alt, href }) => (
+          <Link
             key={title}
-            className="relative w-full aspect-[4/3] md:aspect-[16/9]"
+            href={href}
+            className="relative w-full aspect-[4/3] md:aspect-[16/9] block"
           >
             {/* Image */}
             <Image
@@ -34,7 +46,7 @@ export default function EventImages() {
                 {title}
               </span>
             </figcaption>
-          </figure>
+          </Link>
         ))}
       </div>
     </section>
