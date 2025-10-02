@@ -29,7 +29,7 @@ export default function TimelineTitle() {
               alt="Couple photo"
               fill
               priority
-              className="object-cover object-[100%_center]"
+              className="object-cover object-[20%_center]"
             />
             <p className="absolute top-4 left-4 font-third text-white/95 text-sm md:text-base drop-shadow">
               A gentle kind

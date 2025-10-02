@@ -14,8 +14,6 @@ const preshootImages = [
   { src: "/preshoot/pre9.webp", alt: "Preshoot 09" },
   { src: "/preshoot/pre10.webp", alt: "Preshoot 10" },
   { src: "/preshoot/pre11.webp", alt: "Preshoot 11" },
-
-  // add as many as you need…
 ];
 
 export default function PreshootPage() {
