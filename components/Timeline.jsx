@@ -40,13 +40,16 @@ export default function TimelineTitle() {
 
           {/* RIGHT: Schedule */}
           <div className="space-y-6 md:space-y-7 bg-[#f8f6f2] h-full">
-            <TimelineItem time="4 pm" text="Guest Arrival at Church" />
+            <TimelineItem time="3:45 pm" text="Guests arrival to the church" />
             <Separator />
-            <TimelineItem time="5 pm" text="Wedding Ceremony" />
+            <TimelineItem time="4 pm" text="Church wedding mas" />
             <Separator />
-            <TimelineItem time="5:30 pm" text="Group Photo" />
+            <TimelineItem time="5 pm" text="Church high tea" />
             <Separator />
-            <TimelineItem time="6 pm" text="Travel to Reception Venue" />
+            <TimelineItem
+              time="6:15 pm"
+              text="Travel to the hotel from church"
+            />
           </div>
         </div>
 
@@ -54,17 +57,18 @@ export default function TimelineTitle() {
         <div className="grid grid-cols-[1.2fr_1fr] gap-6 md:gap-12 items-stretch">
           {/* LEFT: Schedule */}
           <div className="space-y-6 md:space-y-7 bg-[#f8f6f2] h-full">
-            <TimelineItem time="6 pm" text="Cocktail Hour" />
+            <TimelineItem time="7 pm" text="Reception Opens" />
             <Separator />
-            <TimelineItem time="6:30 pm" text="Reception Opens" />
+            <TimelineItem
+              time="7:30 pm"
+              text="Couple entering to the reception "
+            />
             <Separator />
-            <TimelineItem time="7 pm" text="Bride & Groom Entrance" />
+            <TimelineItem time="8:15 pm" text="First dance" />
             <Separator />
-            <TimelineItem time="7:30 pm" text="Dinner is Served" />
+            <TimelineItem time="9:30 pm" text="Dinner opens" />
             <Separator />
-            <TimelineItem time="8 pm" text="First Dance & Speeches" />
-            <Separator />
-            <TimelineItem time="11:45 pm" text="Farewell & Send-Off" />
+            <TimelineItem time="12 am" text="Going away" />
           </div>
 
           {/* RIGHT: Photo */}
