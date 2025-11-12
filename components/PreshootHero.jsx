@@ -8,7 +8,7 @@ export default function PreshootHero() {
       <div className="text-center py-16 md:py-24">
         <h2 className="font-script text-4xl md:text-6xl">Our preshoot</h2>
         <p className="mt-4 font-display text-lg md:text-2xl tracking-widest">
-          04 · 12 · 2025
+          15 · 12 · 2025
         </p>
       </div>
 
