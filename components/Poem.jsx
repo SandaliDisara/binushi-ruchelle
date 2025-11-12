@@ -1,20 +1,16 @@
 export default function Poem() {
   return (
-    <section className="bg-[#f8f6f2] text-[#53513C] py-32 md:py-40">
-      <div className="mx-auto max-w-screen-sm px-6 text-center">
-        <div className="relative text-center mb-16">
-          {/* Big faint background title */}
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-            <h2 className="font-script text-[3rem] md:text-[6rem] leading-none text-[#53513C]/20 select-none whitespace-nowrap">
-              Words of Praise
-            </h2>
-          </div>
+    <section className="bg-[#f8f6f2] text-[#53513C] py-20 md:py-40">
+      <div className="mx-auto max-w-screen-sm px-6 text-center mb-16">
+        {/* Script title (top) */}
+        <p className="font-script text-[1.5rem] md:text-[6rem] leading-none text-[#53513C]/20 select-none">
+          Words of Praise
+        </p>
 
-          {/* Foreground title */}
-          <h3 className="relative font-display tracking-wide text-[1.25rem] md:text-[1.875rem] inline-block font-normal translate-y-1 md:translate-y-3">
-            LOVE AND BLESSING
-          </h3>
-        </div>
+        {/* Main title (bottom) */}
+        <h3 className="mt-0.1 font-display tracking-wide text-[1.25rem] md:text-[1.875rem] inline-block font-normal text-[#53513C]">
+          LOVE AND BLESSING
+        </h3>
       </div>
 
       {/* Poem text */}

@@ -26,12 +26,13 @@ export default function PreshootHero() {
       {/* Poem */}
       <div className="bg-[#53513C] text-[#F2F1EC] py-10 md:py-16">
         <p className="font-third italic text-center text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-          In your eyes I found my home,
+          In your arms, the world feels right,
           <br />
-          in your smile I found my peace.
+          where every shadow turns to light.
           <br />
-          With every heartbeat, love has grown,
-          <br />a promise that will never cease.
+          A love so soft, yet deeply true,
+          <br />
+          my heart begins and ends with you.
         </p>
       </div>
     </section>

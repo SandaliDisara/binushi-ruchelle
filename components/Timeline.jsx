@@ -4,18 +4,16 @@ import Image from "next/image";
 export default function TimelineTitle() {
   return (
     <section className="relative bg-[#f8f6f2] dark:bg-[#f8f6f2] text-[#2c2c2c]">
-      <div className="max-w-5xl mx-auto px-6 py-32 md:py-40 relative">
+      <div className="max-w-5xl mx-auto px-6 py-20 md:py-40 relative">
         {/* Title Block */}
-        <div className="relative text-center mb-16">
-          {/* Big faint background title */}
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-            <h2 className="font-script text-[3rem] md:text-[6rem] leading-none text-black/10 select-none whitespace-nowrap">
-              Wedding Schedule
-            </h2>
-          </div>
+        <div className="text-center mb-16">
+          {/* Script title (top) */}
+          <p className="font-script text-[1.5rem] md:text-[6rem] leading-none text-black/10 select-none">
+            Wedding Schedule
+          </p>
 
-          {/* Foreground title */}
-          <h3 className="relative font-display tracking-wide text-[1.25rem] md:text-[1.875rem] inline-block translate-y-1 md:translate-y-3">
+          {/* Main title (bottom) */}
+          <h3 className="mt-0.1 font-display tracking-wide text-[1.25rem] md:text-[1.875rem] inline-block font-normal">
             WEDDING DAY TIMELINE
           </h3>
         </div>
@@ -42,7 +40,7 @@ export default function TimelineTitle() {
           <div className="space-y-6 md:space-y-7 bg-[#f8f6f2] h-full">
             <TimelineItem time="3:45 pm" text="Guests arrival to the church" />
             <Separator />
-            <TimelineItem time="4 pm" text="Church wedding mas" />
+            <TimelineItem time="4 pm" text="Church wedding mass" />
             <Separator />
             <TimelineItem time="5 pm" text="Church high tea" />
             <Separator />
@@ -68,7 +66,7 @@ export default function TimelineTitle() {
             <Separator />
             <TimelineItem time="9:30 pm" text="Dinner opens" />
             <Separator />
-            <TimelineItem time="12 am" text="Going away" />
+            <TimelineItem time="12:30 am" text="Going away" />
           </div>
 
           {/* RIGHT: Photo */}
