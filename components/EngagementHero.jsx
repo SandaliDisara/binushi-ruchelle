@@ -8,7 +8,7 @@ export default function EngagementHero() {
       <div className="text-center py-16 md:py-24">
         <h2 className="font-script text-4xl md:text-6xl">Our Engagement</h2>
         <p className="mt-4 font-display text-lg md:text-2xl tracking-widest">
-          20 · 12 · 2025
+          20 · 12 · 2024
         </p>
       </div>
 
